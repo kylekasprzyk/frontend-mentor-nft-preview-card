@@ -1,0 +1,199 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    min-width: 375px;
+    max-width: 390px;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    margin: auto;
+
+
+
+}
+
+body {
+    line-height: 1.5;
+    margin-top: 25%;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p {
+    overflow-wrap: break-word;
+    color: hsl(215, 51%, 70%);
+    font-size: 1rem;
+    padding-left: 1.5rem;
+}
+
+h1 {
+    overflow-wrap: break-word;
+    color: hsl(0, 0%, 100%);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1.5rem;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+    color: hsl(215, 51%, 70%);
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    max-width: 800px;
+    margin: 2rem;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0rem 1.5rem 2rem hsl(217, 54%, 8%);
+}
+
+.image {
+    position: relative;
+    padding: 1.5rem;
+
+}
+
+.nft-image {
+    display: block;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    width: 85%;
+    height: 85%;
+    background-color: hsl(178, 100%, 50%, 30%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    border-radius: 0.5rem;
+}
+
+.image-overlay:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.nft-title:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.nft-description {
+    font-weight: 300;
+    padding-top: 0.5rem;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+    padding-top: 1rem;
+}
+
+.nft-price {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    line-height: normal;
+    font-weight: 600;
+}
+
+.nft-price-icon {
+    height: 1rem;
+}
+
+.nft-time-left {
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+hr.solid {
+    border: 0.01rem solid hsl(215, 32%, 27%);
+    opacity: 50%;
+}
+
+.solid-line {
+    padding: 1rem 1.5rem 0.5rem 1.5rem;
+
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+
+}
+
+.profile-text {
+    margin: -0.5rem;
+}
+
+.avatar-image {
+    max-width: 2rem;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.nft-creator {
+    color: white;
+}
+
+.nft-creator:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(215, 51%, 70%);
+    ;
+}
+
+.attribution a {
+    color: hsl(178, 100%, 50%);
+}
