@@ -14,19 +14,19 @@
 
 html,
 body {
-    min-width: 375px;
-    max-width: 390px;
+    height: 100%;
     background-color: hsl(217, 54%, 11%);
     font-family: 'Outfit', sans-serif;
-    margin: auto;
-
 
 
 }
 
 body {
     line-height: 1.5;
-    margin-top: 25%;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 img,
@@ -71,8 +71,7 @@ h6 {
 
 .card {
     background-color: hsl(216, 50%, 16%);
-    max-width: 800px;
-    margin: 25% 2rem 0.5rem 2rem;
+    max-width: 20.5rem;
     border-radius: 1rem;
     align-items: center;
     justify-content: center;
@@ -191,7 +190,11 @@ hr.solid {
     font-size: 11px;
     text-align: center;
     color: hsl(215, 51%, 70%);
-    ;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
 }
 
 .attribution a {
