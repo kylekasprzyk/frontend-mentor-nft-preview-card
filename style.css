@@ -72,7 +72,7 @@ h6 {
 .card {
     background-color: hsl(216, 50%, 16%);
     max-width: 800px;
-    margin: 2rem;
+    margin: 25% 2rem 0.5rem 2rem;
     border-radius: 1rem;
     align-items: center;
     justify-content: center;
